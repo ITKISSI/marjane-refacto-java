@@ -25,3 +25,17 @@ Réduit à son rôle HTTP uniquement — délègue entièrement à `OrderService
 
 ### Tests unitaires
 Couverture de tous les cas métier pour les types `NORMAL`, `SEASONAL` et `EXPIRABLE`.
+
+---
+
+## Stratégie de branches
+
+Une branche `feature/` par tâche, mergée dans `main` après validation.
+
+```
+main
+├── feature/product-type-enum
+├── feature/order-service
+├── feature/product-service-cleanup
+└── feature/unit-tests
+```
